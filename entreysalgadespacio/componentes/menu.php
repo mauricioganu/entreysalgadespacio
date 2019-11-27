@@ -1,7 +1,7 @@
 
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar- fixed-top "style="background-color: yellow;font-size: 20px;font-family:showcard ;font-style:italic;  ">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="navbar-brand" href="#">
 <?php if(isset($_SESSION['usuario']))
  {
   echo $_SESSION['usuario'];
